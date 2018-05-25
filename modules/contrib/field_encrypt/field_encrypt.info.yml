@@ -1,0 +1,14 @@
+name: Field Encrypt
+type: module
+description: Extension of the Field API to allow encryption of fields
+# core: 8.x
+package: Encryption
+dependencies:
+  - encrypt
+  - field
+
+# Information added by Drupal.org packaging script on 2016-09-12
+version: '8.x-2.0-alpha1'
+core: '8.x'
+project: 'field_encrypt'
+datestamp: 1473701041

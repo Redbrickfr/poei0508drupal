@@ -1,0 +1,54 @@
+/*ive stylesheet*/
+:root {--smashing-orange:orange;}
+
+#header {
+	background: #fff;
+	text-transform: uppercase;
+}
+
+.region-header a,
+.region-primary-menu .menu a,
+h1.page-title,
+#sidebar-first .block h2 {
+	color: var(--smashing-orange);
+	text-shadow: 0 0 transparent;
+}
+
+#sidebar-first .block h2 {
+	border-bottom: 1px solid var(--smashing-orange);
+	font-style: italic;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.region-primary-menu .menu a {
+	font-size:15px;
+	border-radius: 8px;
+	transition: all 400ms;
+}
+
+.region-primary-menu .menu a:hover,
+.region-primary-menu .menu a.is-active {
+	background-color: var(--smashing-orange);
+	color:#fff;
+}
+
+h1.page-title {
+    font-size: 2rem;
+    text-transform:uppercase;
+    font-family: 'georgia', serif;
+}
+
+
+.content-ive {
+	width: 100%;
+	background-color:  var(--smashing-orange);
+	color: #fff;
+	clear: both;
+}
+
+.content-ive:after {
+	display: block;
+	content:'';
+	clear: both;
+}

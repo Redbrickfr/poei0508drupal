@@ -1,0 +1,42 @@
+#main .layout--twocol-bricks-ive {
+	width: 1000px;
+	margin: 10px auto;
+	padding: 0;
+}
+
+#main .layout--twocol-bricks-ive * {
+	margin: 0;
+	padding: 0;
+}
+
+#main .layout--twocol-bricks-ive .layout__region--first-above {
+	width: 644px;
+	margin: 0;
+	padding: 0;
+}
+
+#main .layout--twocol-bricks-ive .layout__region--second-above {
+	width: 314px;
+	padding: 10px;
+}
+
+#block-zurbive-main-menu ul.menu {
+	display: table;
+	margin: 0 auto;
+}
+
+#block-zurbive-main-menu ul.menu li a {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: normal;
+	padding: 6px;
+}
+
+.block-views-blocklmi-front-block-3 .views-row {
+	width: 480px!important;
+}
+
+.block-views-blocklmi-front-block-3 .views-col {
+	width: 45%!important;
+	padding: 2.5%!important;
+}

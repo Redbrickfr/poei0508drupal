@@ -1,0 +1,7 @@
+global:
+  version: VERSION
+  css:
+    base:
+      css/zurbive.css: {}
+  js:
+    js/zurbive.js: {}

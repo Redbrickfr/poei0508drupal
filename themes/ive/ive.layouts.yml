@@ -1,0 +1,19 @@
+layout_twocol_bricks_ive:
+  label: 'Two column bricks ive'
+  path: layouts/twocol_bricks_ive
+  template: layout--twocol-bricks_ive
+  library: ive/twocol_bricks_ive
+  category: 'Columns: 2'
+  default_region: middle
+  icon_map:
+    - [first_above, second_above]
+    - [first_below, second_below]
+  regions:
+    first_above:
+      label: 'First above ive'
+    second_above:
+      label: 'Second above ive'
+    first_below:
+      label: 'First below ive'
+    second_below:
+      label: 'Second below ive'
