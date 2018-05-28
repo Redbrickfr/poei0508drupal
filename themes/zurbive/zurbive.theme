@@ -6,6 +6,16 @@
  * Implements hook_preprocess_block()
  */
 function zurbive_preprocess_block(&$variables) {
+	$variables['country_list'] = \SameerShelavale\PhpCountriesArray\CountriesArray::get();
+
+//Option 1
+/**use SameerShelavale\PhpCountriesArray\CountriesArray;
+$countries = CountriesArray::get();
+
+//Option 2
+$countries = \SameerShelavale\PhpCountriesArray\CountriesArray::get();
+
+var_dump($countries);*/
 }
 
 /**
