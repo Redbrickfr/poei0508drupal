@@ -1,21 +1,22 @@
 <?php
-
+use Th3Mouk\YahooWeatherAPI\YahooWeatherAPI;
 // Add your custom theme override functions here.
 
 /**
  * Implements hook_preprocess_block()
  */
 function zurbive_preprocess_block(&$variables) {
+	
+	//Block liste des pays
 	$variables['country_list'] = \SameerShelavale\PhpCountriesArray\CountriesArray::get();
 
-//Option 1
-/**use SameerShelavale\PhpCountriesArray\CountriesArray;
-$countries = CountriesArray::get();
+	//Block meteo
+	$YahooWeather = new \Th3Mouk\YahooWeatherAPI\YahooWeatherAPI();
+	$data = $YahooWeather-> callApiCityName ('Paris','c');
+	$variables['weather']=[];
+	$variables['weather']['text'] = $data['item']['condition']['text'];
+	$variables['weather']['temp'] = $data['item']['condition']['temp'];
 
-//Option 2
-$countries = \SameerShelavale\PhpCountriesArray\CountriesArray::get();
-
-var_dump($countries);*/
 }
 
 /**
