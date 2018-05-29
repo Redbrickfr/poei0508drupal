@@ -24,7 +24,8 @@
         "drupal/panels": "^4.3",
         "drupal/zurb_foundation": "^6.0",
         "drupal/taxonomy_menu": "^3.3",
-        "drupal/taxonomy_manager": "^1.0"
+        "drupal/taxonomy_manager": "^1.0",
+        "drupal/console": "~1.0"
     },
     "replace": {
         "drupal/core": "^8.5"
